@@ -17,5 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(0)
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/')
+
+WebUI.setText(findTestObject(null), 'Admin')
+
+WebUI.setEncryptedText(findTestObject(null), 'hUKwJTbofgPU9eVlw/CnDQ==')
+
+WebUI.click(findTestObject(null))
+
+WebUI.closeBrowser()
 

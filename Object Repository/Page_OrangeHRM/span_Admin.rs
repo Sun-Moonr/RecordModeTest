@@ -3,15 +3,15 @@
    <description></description>
    <name>span_Admin</name>
    <tag></tag>
-   <elementGuidId>8b73ebe6-7a06-49c3-9bf8-215f92213846</elementGuidId>
+   <elementGuidId>fbd8abff-8ac1-422f-a52d-53d27ad10142</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>span.oxd-text.oxd-text--span.oxd-main-menu-item--name</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='app']/div/div/aside/nav/div[2]/ul/li/a/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.oxd-text.oxd-text--span.oxd-main-menu-item--name</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>a2f20a19-bcd1-4dae-8268-38604c3cdaf1</webElementGuid>
+      <webElementGuid>019a0068-ea3d-4f4f-863c-60abea5d9c25</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>oxd-text oxd-text--span oxd-main-menu-item--name</value>
-      <webElementGuid>64ae23e3-8c73-44d6-b10c-4234cdc392a3</webElementGuid>
+      <webElementGuid>bea8ec03-fd51-41a0-b5a9-d5f59be7c492</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,15 +38,15 @@
       <name>text</name>
       <type>Main</type>
       <value>Admin</value>
-      <webElementGuid>2e04db1b-dcc7-494f-a812-ac0b9ecb18b2</webElementGuid>
+      <webElementGuid>05bedfcf-825e-4bb9-b2d4-847c53383f48</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-navigation&quot;]/aside[@class=&quot;oxd-sidepanel&quot;]/nav[@class=&quot;oxd-navbar-nav&quot;]/div[@class=&quot;oxd-sidepanel-body&quot;]/ul[@class=&quot;oxd-main-menu&quot;]/li[@class=&quot;oxd-main-menu-item-wrapper&quot;]/a[@class=&quot;oxd-main-menu-item active&quot;]/span[@class=&quot;oxd-text oxd-text--span oxd-main-menu-item--name&quot;]</value>
-      <webElementGuid>9214185b-957c-444c-be90-5b4229da9c23</webElementGuid>
+      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-navigation&quot;]/aside[@class=&quot;oxd-sidepanel&quot;]/nav[@class=&quot;oxd-navbar-nav&quot;]/div[@class=&quot;oxd-sidepanel-body&quot;]/ul[@class=&quot;oxd-main-menu&quot;]/li[@class=&quot;oxd-main-menu-item-wrapper&quot;]/a[@class=&quot;oxd-main-menu-item&quot;]/span[@class=&quot;oxd-text oxd-text--span oxd-main-menu-item--name&quot;]</value>
+      <webElementGuid>a0889f4d-90da-4981-bafe-18808bcc5552</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div/aside/nav/div[2]/ul/li/a/span</value>
-      <webElementGuid>cacdb42e-f03f-44b1-bcbb-4afb10077683</webElementGuid>
+      <webElementGuid>3ad0a46f-1c63-45c9-ba3f-a92ee8552dc7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Admin']/parent::*</value>
-      <webElementGuid>ecdfb13d-9e63-40cb-8b0c-859074cc81e2</webElementGuid>
+      <webElementGuid>479c887a-df0b-4774-a7a0-856e3d3d559a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span</value>
-      <webElementGuid>af3c04f2-5a6d-4707-b471-14f9376e51ce</webElementGuid>
+      <webElementGuid>29e56cb5-6735-447f-b5de-6d1f33cbfb97</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +78,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Admin' or . = 'Admin')]</value>
-      <webElementGuid>03d7512f-5732-465b-8a78-43d8dfe9d504</webElementGuid>
+      <webElementGuid>6d048f19-2a9f-4231-8e7b-1192a380be29</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
